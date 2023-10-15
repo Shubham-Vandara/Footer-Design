@@ -1,0 +1,26 @@
+@media only screen and (max-width:850px) {
+
+    .footer .container .col,
+    .footer .container .col:last-child {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .footer .container .col,
+    .footer .container .col:last-child {
+        width: 100%;
+    }
+
+    .footer ul li {
+        margin: 0 0 5px 0;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .footer input[type="email"] {
+        width: 100%;
+        margin: 0 0 16px 0;
+    }
+}
